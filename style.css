@@ -1,25 +1,54 @@
-.header{display: flex;
-background-color: lightgreen;
-font-size: 24px;
-align-items: center;
-color: aliceblue;
+*{
+  margin: 0;
+  padding: 0;
 }
+.first-section{ background-color:#1f2937;}
+
+#header-logo{font-size: 28px;
+color: whitesmoke;}
 
 
-footer{display: flex;
-background-color: pink;
-height: 72px;
-background: #eee;
-color: darkmagenta;
+.header-link{ font-size: 18px;
+color: white;
+margin-left: 90px;}
+
+.navbar{ display: flex;
+  flex-direction: row;
+ }
+ul{ display: flex;
+flex-direction: row;
+gap: 15px;}
+
+.navbar-right,.navbar-left{
 display: flex;
-align-items: center;
-justify-content: center;}
-body {
-    display: flex;
-    flex-direction: column;
-  }
+width: 50%;
+justify-content: center;
+align-items: center;}
 
-  footer span {
-    padding-bottom: 20px;
+ .content-right{ display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 50%;
+margin: 50px;}
+img{ margin: 50px;}
+
+.content-left{ display: flex; flex-direction: column; width: 50%;align-items: center; justify-content: center; color: white;}
+
+.content {display: flex;
+  flex-direction: row;
+  margin: 50px;}
+
+  .p-first{ margin-left: 90px; font-size: 18px; color: white; padding-left: 225px; margin-top: 50px;}
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: skyblue; border-style: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 50px;
   }
   
